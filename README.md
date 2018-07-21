@@ -120,7 +120,7 @@ SpringCloud：关注全局的微服务协调治理框架，将SpringBoot开发�
 
 #### 目前成熟都互联网架构（分布式+服务治理Dubbo）
 
-![目前成熟都互联网架构（分布式+服务治理Dubbo）](E:\笔记\images\目前成熟的互联网架构.png)
+![目前成熟都互联网架构（分布式+服务治理Dubbo）](images\目前成熟的互联网架构.png)
 
 #### 对比
 
@@ -269,7 +269,7 @@ public class Provider8001_APP {
 - 两大组件：Eureka Server（提供注册服务）、 Eureka Client（JAVA客户端，负责发送心跳）
 - 系统中的其他微服务使用Eureka客户端连接到Eureka服务端维持心跳连接（即注册）。SpringCloud的其他模块可以通过Eureka Server 来发现系统中的微服务并加以调用
 
-![Eureka的架构图](E:\笔记\images\Eureka的架构图.png)
+![Eureka的架构图](images\Eureka的架构图.png)
 
 ### Eureka服务注册中心构建
 
